@@ -14,7 +14,7 @@ FSUB_UPDATES = os.environ.get("FSUB_CHANNEL", "Team_MDL")
 FSUB_GROUP = os.environ.get("FSUB_GROUP", "Team_MDL_Request")
 DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://monitgmoni:MoniTG007@cluster0.bxwiejd.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "RenameLeechbot")
-CAPTION = os.environ.get("CAPTION", "<b>{filename}/n/n🥀 Powered By : @Team_MDL</b>")
+CAPTION = os.environ.get("CAPTION", " ")
 group = environ.get('GROUP', '-1002208828378')
 GROUP = int(group) if group and id_pattern.search(group) else None
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
